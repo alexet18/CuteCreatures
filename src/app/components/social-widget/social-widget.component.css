@@ -1,0 +1,47 @@
+.custom-card{
+    background-color: white;
+    width: 250px;
+    height: 65px;
+    position: fixed;
+    right:3%;
+    top:20px;
+    border-radius: 10px;
+    border:4px solid black;
+    display:grid;
+    grid-template-columns: 44% 52%;
+    grid-column-gap: 4%;
+}
+
+
+.social-buttons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+
+i{
+    transform:scale(1.7);
+}
+
+.goto-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sigmar One', cursive;
+    height:100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+
+.goto-app > button{
+    background-color: rgb(67, 195, 238);
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+    height:100%;
+    color:white;
+    box-shadow: 3px 3px black;
+}
