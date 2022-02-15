@@ -2,6 +2,44 @@
 
 @import '../node_modules/ng-zorro-antd/ng-zorro-antd.css';
 @import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
 
 
 
+.section-container{
+    min-height: 100vh;
+}
+
+.pink{
+    background-color: rgb(255, 157, 173);
+}
+
+.center{
+    /* position:relative;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-text{
+    font-family: 'Sigmar One', cursive;
+    font-size: 42px;
+    color:black;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Averia Libre', cursive;
+    font-size:16px;
+    color:black;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.padding-15{
+padding:15px;
+}
